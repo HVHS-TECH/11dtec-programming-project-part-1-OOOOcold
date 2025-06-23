@@ -8,7 +8,7 @@ let answer = 0;
 var ten = 10;
 
 function start() {
-    userName = prompt("I'm Rob.\nWhats your name?");
+    userName = prompt("I'm Jason.\nWhats your name?");
     alert("Hello " + userName + " welcome to Rob's car rentals");
     choice = prompt("How many seats would you the car to have?");
     while (choice < 0 || choice > 8) {
